@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:background="#f9f9f9"
+    android:ellipsize="end"
+    android:layout_margin="20dp"
+    android:src="@drawable/rounded_background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_title"
+        android:textColor="@color/black"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_content"
+        android:text="Detaildsdn  dciicc "
+        android:textColor="@color/black"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/note_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="6/25/2023"
+        android:textColor="@color/black"
+        android:textSize="8sp" />
+</LinearLayout>
