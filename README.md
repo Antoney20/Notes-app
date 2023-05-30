@@ -1,2 +1,2 @@
 # Notes-app
-a simple notes app using firebase
+<h2>a simple notes app using firebase</h2>
